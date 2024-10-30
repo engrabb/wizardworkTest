@@ -1,0 +1,58 @@
+[
+  {
+    "ContainingType": "WizardSquareAPI.Controllers.SquaresController",
+    "Method": "GetSquares",
+    "RelativePath": "api/Squares",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[WizardSquareAPI.Square, WizardSquareAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WizardSquareAPI.Controllers.SquaresController",
+    "Method": "AddSquare",
+    "RelativePath": "api/Squares",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "square",
+        "Type": "WizardSquareAPI.Square",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WizardSquareAPI.Square",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WizardSquareAPI.Controllers.SquaresController",
+    "Method": "ClearSquares",
+    "RelativePath": "api/Squares/clear",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
