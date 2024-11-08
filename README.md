@@ -1,3 +1,10 @@
+A React and C# API project.
+
+The point is to create squares, put in a model where the squares ulitmately form a bigger square. 
+
+The API is used to save the figure locally through a JSON file - which in turn reloads the current figure when you restart or refresh the site
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
